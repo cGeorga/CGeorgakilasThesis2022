@@ -1,5 +1,6 @@
-Vit-implementation based on [this](https://github.com/tahmid0007/VisionTransformer) repository.
-Mainly Changing the training process and hyperparameters, adding early stopping and lr scheduling.
+Vit-implementation based on [this](https://github.com/tahmid0007/VisionTransformer) and [this](https://github.com/yanqishi1/vision-transformers-cifar10) repository.
+Mainly Changing the training process and hyperparameters, using lr_scheduler from the 2nd repository.
+Using patch_masking for model training on Cifar-10 reaching ~82.5% accuracy training from scratch.
 
 Training the model from scratch on Cifar-100 with and without data augmentation.
 
